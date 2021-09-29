@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountFragment"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Main"
+        app:cardCornerRadius="20dp"
+        android:layout_width="350dp"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:id="@+id/internal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#FFC107"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="75dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/user" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_person"
+                    android:id="@+id/uname"
+                    android:layout_marginTop="45dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/profile"
+                    android:text="Your Name"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_email"
+                    android:id="@+id/umail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your E-Mail"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_gain"
+                    android:id="@+id/amt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="00000"
+                    android:textSize="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/account"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/orders"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FF9800">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  All Orders"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:drawableStart="@drawable/ic_orders"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/more"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/pricing"
+    android:layout_width="350dp"
+    android:layout_height="45dp"
+    app:cardCornerRadius="15dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FF9800">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Pricing"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_pricing"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/about"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FF9800">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  About"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:drawableStart="@drawable/ic_about"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/support"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FF9800">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Support"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:drawableStart="@drawable/ic_support"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/log_out"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FF9800">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Log Out"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:drawableStart="@drawable/ic_logout"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

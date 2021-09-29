@@ -1,0 +1,22 @@
+<resources>
+
+    <!--UI STRINGS-->
+
+    <string name="app_name">Trademo</string>
+    <string name="Market">Market</string>
+    <string name="invesment">My Invesment</string>
+    <string name="about">About</string>
+    <string name="security">Security</string>
+    <string name="migrate">Migrate</string>
+    <string name="pricing">Pricing</string>
+    <string name="account">My Account</string>
+    <string name="more">More</string>
+    <string name="earn">Invite Friends</string>
+    <string name="out">Logout</string>
+
+
+    <!--TAXES STRINGS-->
+    <string name="st">ST Tax</string>
+    <string name="GST">ST Tax</string>
+
+</resources>

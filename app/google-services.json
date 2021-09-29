@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995162212832",
+    "project_id": "moneybox-b9b83",
+    "storage_bucket": "moneybox-b9b83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995162212832:android:01dc84dbc7e259e42a4385",
+        "android_client_info": {
+          "package_name": "com.codersoftech.moneybox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995162212832-3hp8b25m5vgi0rl1e58rbip1rn446kcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfUhrnw224dnMtrLV6h-TDuLZs1e66EFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995162212832-3hp8b25m5vgi0rl1e58rbip1rn446kcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

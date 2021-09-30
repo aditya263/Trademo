@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
     android:background="#FF9800"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SignUpActivity">
+    android:gravity="center">
 
 
     <ImageView
@@ -20,43 +20,39 @@
 
 
     <EditText
-        android:id="@+id/name"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:drawableLeft="@drawable/ic_person"
-        android:drawablePadding="8dp"
+    android:layout_gravity="center"
+    android:id="@+id/name"
+    android:inputType="textPersonName"
+    android:layout_width="250dp"
         android:hint="Your Name"
-        android:inputType="textPersonName" />
+    android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/phone"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:drawableLeft="@drawable/ic_phone"
+        android:id="@+id/phone"
         android:hint="Your Phone No."
-        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/ic_phone"
         android:inputType="phone"
-        android:maxLength="10" />
+        android:maxLength="10"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
 
 
     <EditText
-        android:id="@+id/email"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:drawableLeft="@drawable/ic_email"
+        android:id="@+id/email"
         android:hint="Your Email Address"
-        android:drawablePadding="8dp"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/Register"
         android:layout_width="163dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
         android:text="Confirm" />
 
 

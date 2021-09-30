@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Coder Softtech/MoneyBox/MoneyBox/app/src/main/res/layout/activity_final_trade.xml" value="0.2" />
+        <entry key="..\:/Coder Softtech/MoneyBox/MoneyBox/app/src/main/res/layout/activity_login.xml" value="0.18432971014492755" />
+        <entry key="..\:/Coder Softtech/MoneyBox/MoneyBox/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Coder Softtech/MoneyBox/MoneyBox/app/src/main/res/layout/activity_splash.xml" value="0.176" />
+        <entry key="..\:/Coder Softtech/MoneyBox/MoneyBox/app/src/main/res/layout/fragment_account.xml" value="0.11302083333333333" />
       </map>
     </option>
   </component>
